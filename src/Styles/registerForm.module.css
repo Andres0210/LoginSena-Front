@@ -1,0 +1,121 @@
+.form {
+    width: 700px;
+    background-color: #F2F2F2;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    height: 700px;
+
+
+
+}
+
+.fondoContainer {
+
+    background: #F0F2F0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000C40, #F0F2F0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000C40, #F0F2F0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* fallback for old browsers */
+
+    padding-top: 1px;
+    padding-bottom: 1px;
+    /* height: 100vh; */
+
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 1200px;
+    height: 100%;
+    margin: 2px auto;
+    scale: 0.85;
+}
+
+.imageLogin {
+    width: 600px;
+    height: 700px;
+    background-image: url('../Images/especialista-biotecnologia.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.entradas {
+    border: none;
+    background-color: #d9e6f8;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    width: 400px;
+    height: 25px;
+    padding: 5px 10px 5px 10px;
+}
+
+/* .entradaDate{
+    border: none;
+    background-color: #d9e6f8;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    width: 400px;
+    height: 65px;
+    padding: 5px 10px 5px 10px;
+} */
+
+.datePicker{
+    background-color: #d9e6f8;
+    width: 420px;
+    
+}
+
+.form h3 {
+    margin-bottom: 80px;
+}
+
+.btnsesion {
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 30px;
+    width: 200px;
+    color: aliceblue;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: none;
+
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    width: 480px;
+
+
+}
+
+.botonGroup {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    height: 100px;
+    height: 50px;
+    width: 480px;
+    margin-top: 20px;
+
+}
+
+.botonGroup button {
+    margin-right: 10px;
+}

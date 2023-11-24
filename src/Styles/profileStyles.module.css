@@ -1,0 +1,47 @@
+
+
+.homeContainer {
+    display: flex;
+    background: #D3CCE3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+    margin: 0 auto;
+
+    flex-direction: column;
+
+}
+
+.homeContainer p {
+    color: rgb(32, 12, 12);
+    margin: 0 0 8px 0px;
+
+}
+
+
+
+.homeContainer p strong {
+    margin-right: 6px;
+}
+
+.detallesContainer {
+    background-color: #f2f2f2;
+    width: 420px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+    margin: 50px auto;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.detallesContainer h3 {
+    color: rgb(10, 5, 5);
+}
